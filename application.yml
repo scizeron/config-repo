@@ -1,0 +1,21 @@
+
+management:
+ context-path: /admin
+
+eureka:
+ instance:
+  metadata-map:
+   instanceId: ${server.port} 
+
+security:
+ basic:
+  enabled: false
+ oauth2:
+  resource:
+   jwt:
+    key-uri: http://localhost:8080/uaa/token_key  
+
+logging:
+ level:
+  com.example: DEBUG
+  org.springframework.security.oauth2: DEBUG
