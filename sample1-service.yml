@@ -1,0 +1,13 @@
+server:
+  port: 6001
+  context-path: /sample1-apis
+
+spring:
+ activemq:
+  broker-url: tcp://localhost:61616
+      
+
+security:
+ oauth2:
+  client:
+   client-secret: sample1-secret
