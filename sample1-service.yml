@@ -10,4 +10,4 @@ spring:
 security:
  oauth2:
   client:
-   client-secret: sample1-secret
+   client-secret: '{cipher}AQA71mZG/nwVLTA0yTk2wut00MxAAXKOKENAmuaNt447OQjM2SYtLzgruHB63muwmtlIvJ9idrFqfr3e7X5TfEFY4Vcrrz6WX6aCQ8rh7K9D50hxI+jBke45yE2fgbZsguMT4igB16irKufyy8/n/W1/KyeeTgNnsxLp34UKOkGbNqViHNsMs6eY8fEQjHE4mi+WKjz7ZmE3C7bb+vyNKQn2PR+lRH0JqczO98nytto3+wXaKVOb2e+IR0mm7M+xEiel1/R2OtwNdiXr6bBZbBgj2xzvCBYsWTCeWFwHPH+Fdxxv40YAxuZfDY/26GQNEIY41Vm8rhPAAkQWlISw1mxQ+lcqyhL/S08qJoYtXIIzEKRQ7/sGKesJ+qcZ6C0AxEw='
