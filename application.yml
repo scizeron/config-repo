@@ -19,5 +19,5 @@ security:
 
 logging:
  level:
-  com.example: INFO
+  com.example: DEBUG
   org.springframework.security.oauth2: DEBUG
